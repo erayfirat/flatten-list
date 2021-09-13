@@ -1,6 +1,7 @@
 veri=input()
 veri=veri.replace("[","")
 veri=veri.replace("]","")
+veri=veri.replace(" ","")
 liste=veri.split(",")
 print(veri)
 liste1=[]
