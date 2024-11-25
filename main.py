@@ -1,15 +1,15 @@
-veri=input()
-veri=veri.replace("[","")
-veri=veri.replace("]","")
-veri=veri.replace(" ","")
-liste=veri.split(",")
-print(veri)
-liste1=[]
-for i in liste:
+data=input()
+data=data.replace("[","")
+data=data.replace("]","")
+data=data.replace(" ","")
+list=data.split(",")
+print(data)
+list1=[]
+for i in list:
     if i.isnumeric():
-        liste1.append(int(i))
+        list1.append(int(i))
     else:
         i=i.replace("'","")
         i=i.replace("\"","")
         liste1.append(i)
-print(liste1)
+print(list1)
